@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memories — Interactive Photo Gallery</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./gallery.css">
+  <script src="./gallery.js"></script>
+</head>
+<body>
+  <header class="gallery-header">
+    <span class="gallery-ornament" aria-hidden="true"><span class="gallery-star">✦</span></span>
+    <h1>MEMORIES</h1>
+  </header>
+
+  <main>
+    <div id="image">Hover over an image below to display here.</div>
+
+    <div class="preview-grid">
+      <img
+        class="preview"
+        alt="Image 1"
+        src="./assets/memories/photos/memory-01.webp"
+        tabindex="0"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()"
+      >
+      <img
+        class="preview"
+        alt="Image 2"
+        src="./assets/memories/photos/memory-02.webp"
+        tabindex="0"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()"
+      >
+      <img
+        class="preview"
+        alt="Image 3"
+        src="./assets/memories/photos/memory-03.webp"
+        tabindex="0"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()"
+      >
+      <img
+        class="preview"
+        alt="Image 4"
+        src="./assets/memories/photos/memory-04.webp"
+        tabindex="0"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()"
+      >
+      <img
+        class="preview"
+        alt="Image 5"
+        src="./assets/memories/photos/memory-08.webp"
+        tabindex="0"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()"
+      >
+      <img
+        class="preview"
+        alt="Image 6"
+        src="./assets/memories/photos/memory-18.webp"
+        tabindex="0"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()"
+      >
+    </div>
+  </main>
+</body>
+</html>
